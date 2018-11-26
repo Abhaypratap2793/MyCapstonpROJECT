@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+xmlns:app="http://schemas.android.com/apk/res-auto"
+xmlns:tools="http://schemas.android.com/tools"
+android:layout_width="match_parent"
+android:layout_height="match_parent"
+tools:context=".NewQuizActivity">
+
+<FrameLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/quiz_frameLayout"
+    android:animateLayoutChanges="true"
+    android:layout_above="@id/QuizbottomNavigation"/>
+
+
+
+<android.support.design.widget.BottomNavigationView
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:id="@+id/QuizbottomNavigation"
+    android:background="@color/colorPrimary"
+    android:layout_alignParentBottom="true"
+    app:itemIconTint="@drawable/quiz_bottom_nav_color_state"
+    app:itemTextColor="@drawable/quiz_bottom_nav_color_state"
+    app:menu="@menu/quiz_bottom_menu"
+    />
+
+</RelativeLayout>

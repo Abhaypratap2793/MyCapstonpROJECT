@@ -4,7 +4,6 @@
 
     <uses-permission android:name="android.permission.INTERNET" />
 
-
     <application
         android:allowBackup="true"
         android:icon="@drawable/iconpre"
@@ -19,13 +18,15 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name=".quiz_activity" />
-        <activity android:name=".mainquizactivityDisplay" />
         <activity android:name=".MainActivity" />
         <activity android:name=".Sign_Up_Activity" />
         <activity android:name=".ContentCourseForCPP" />
         <activity android:name=".ContentCourseForC" />
-        <activity android:name=".First_Screen"></activity>
+        <activity android:name=".First_Screen" />
+        <activity android:name=".NewQuizActivity" />
+        <activity android:name=".Start" />
+        <activity android:name=".Playing" />
+        <activity android:name=".Done"></activity>
     </application>
 
 </manifest>

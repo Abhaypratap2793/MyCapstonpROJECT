@@ -93,7 +93,7 @@ public class MainActivity extends AppCompatActivity implements NavigationView.On
                 if(id==R.id.mcq)
                 {
 
-                    Intent intent = new Intent(MainActivity.this,quiz_activity.class);
+                    Intent intent = new Intent(MainActivity.this,NewQuizActivity.class);
                     startActivity(intent);
                 }
                 else if(id==R.id.ayp)
